@@ -6,6 +6,7 @@ import {
   PasswordInput,
   ErrorMessage,
   Heading,
+  Paragraph,
 } from './styledComponents'
 
 const PasswordValidator = () => {
@@ -28,7 +29,7 @@ const PasswordValidator = () => {
   return (
     <PasswordValidatorContainer>
       <Heading>Password Validator</Heading>
-      <p>Check how strong and secure its your password</p>
+      <Paragraph>Check how strong and secure is your password</Paragraph>
       <PasswordInput
         type="password"
         placeholder="Enter your password"

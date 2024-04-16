@@ -26,3 +26,10 @@ export const Heading = styled.h2`
   color: #ffffff;
   text-align: center;
 `
+
+export const Paragraph = styled.p`
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #ffffff;
+  text-align: center;
+`
